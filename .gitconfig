@@ -1,0 +1,12 @@
+[push]
+	default = simple
+
+[core]
+	autocrlf = input
+
+[alias]
+	sla = log --oneline --decorate --graph --all
+
+# use separate file for username / github token / etc
+[include]
+    path = ~/.gitconfig.local
