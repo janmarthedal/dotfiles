@@ -1,7 +1,6 @@
 # Adapted from Paul Irish's .bash_prompt
 
-default_username='jmr-work'
-
+default_username='jmr'
 
 if which thefuck > /dev/null; then
     eval "$(thefuck --alias)"
